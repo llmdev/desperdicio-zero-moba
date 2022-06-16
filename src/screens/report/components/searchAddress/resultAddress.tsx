@@ -51,7 +51,7 @@ export function ResultAddress({ setStep, address }) {
 
       </View>
 
-       <Button  title="Sim, continuar" >Sim, continuar</Button>
+       <Button  title="Sim, continuar" onPress={() => setStep(3)}>Sim, continuar</Button>
        <Button  title="Não, editar" onPress={() => setStep(1)} >Não, editar</Button>
     </View>
   )

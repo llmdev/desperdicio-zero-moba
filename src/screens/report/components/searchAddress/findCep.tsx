@@ -1,5 +1,5 @@
 import React from "react";
-import { View, Text, TextInput, Button, StyleSheet, Keyboard,ActivityIndicator } from "react-native";
+import { View, Text, TextInput, Button, StyleSheet, Keyboard, ActivityIndicator } from "react-native";
 
 export function FindCep({setStep, setAddress}) {
   const [cep, setCep] = React.useState('');

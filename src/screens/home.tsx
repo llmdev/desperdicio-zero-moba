@@ -6,6 +6,7 @@ import {
   FlatList,
   TouchableHighlight,
   Image,
+  ScrollView
 } from "react-native";
 import { CardButton } from "../components/cardButton/cardButton";
 import { Header } from "../components/header/header.components";
@@ -47,7 +48,7 @@ const notices = [
 
 export function Home({ navigation }) {
   return (
-    <View>
+    <ScrollView>
       <Header navigation={navigation} />
       <Text
         style={StyleSheet.create({
@@ -92,6 +93,6 @@ export function Home({ navigation }) {
           }}
         />
       </NoticeWrapper>
-    </View>
+    </ScrollView>
   );
 }
