@@ -1,5 +1,5 @@
 # desperdicio-zero-moba
-Desperdicio-zero react native
+MVP Desperdicio-zero react native
 
 
  - Projeto React Native 
