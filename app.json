@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "desperdicio-zero-moba",
+    "slug": "desperdicio-zero-moba",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
