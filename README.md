@@ -7,4 +7,4 @@ Desperdicio-zero react native
 
  # Video Exemplo
 
-![Video Exemplo](screen.gif)
+<img src="screen.gif" width="250" />
